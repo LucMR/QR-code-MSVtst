@@ -25,7 +25,7 @@ body {
 }
 
 .card {
-    background-image: linear-gradient(to bottom, rgba(55,55,55,255), rgb(226,54,14,255));
+    background-image: linear-gradient(to bottom, rgba(55,55,55,255), rgba(226,54,14,255));
     padding: 18px;
     border-radius: 17px;
     text-align: center;
@@ -50,20 +50,27 @@ body {
     color: hsla(0, 0%, 99%, 0.72);
 }
 
-button {
-    margin-top: 7%;
-    border-radius: 5px 5px;
-    background-color: rgba(226,54,14,255);
-    padding: 5px 5px;
-}
-
-.text a {
+.btn {
     color: hsla(0, 0%, 99%, 0.72);
+    text-decoration: none;
+    background-color: rgba(228, 38, 0, 0.746);
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px rgba(3, 2, 2, 0.439);
+    opacity: 0.4;
+    transition: 0.3s;
 }
 
-button :hover {
-    background-color: rgba(226,54,14,255);
-    border-radius: 5px 5px;
-    padding: 5px 5px;
-    margin-top: 7%;
+.btn:hover {
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 12px rgba(3, 2, 2, 0.436);
+    opacity: 0.9;
+}
+
+.btn:active {
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 12px rgba(3, 2, 2, 0.436);
+    opacity: 0.9;
 }
